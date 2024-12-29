@@ -13,13 +13,13 @@ def show_banner():
     os.system("clear")  
     banner = """[bold red]
 
- ██████╗ ██╗  ██╗██╗██╗   ██╗ █████╗ ███████╗ ██╗██████╗ ██████╗ ███████╗
+██████╗ ██╗  ██╗██╗██╗   ██╗ █████╗ ███████╗ ██╗██████╗ ██████╗ ███████╗
 ██╔════╝ ██║  ██║██║╚██╗ ██╔╝██╔══██╗██╔════╝███║╚════██╗╚════██╗╚════██║
 ██║  ███╗███████║██║ ╚████╔╝ ███████║███████╗╚██║ █████╔╝ █████╔╝    ██╔╝
 ██║   ██║██╔══██║██║  ╚██╔╝  ██╔══██║╚════██║ ██║ ╚═══██╗ ╚═══██╗   ██╔╝ 
 ╚██████╔╝██║  ██║██║   ██║   ██║  ██║███████║ ██║██████╔╝██████╔╝   ██║  
  ╚═════╝ ╚═╝  ╚═╝╚═╝   ╚═╝   ╚═╝  ╚═╝╚══════╝ ╚═╝╚═════╝ ╚═════╝    ╚═╝
-
+ 
                                     
 [/bold red]
 """
@@ -63,7 +63,7 @@ def deface_single(target, file_path):
         table.add_row("1", target, "[bold red]Failed[/bold red]")
 
     show_banner()
-    console.print("[bold yellow]Simulasi Deface: cURL Webdav Automation Tool[/bold yellow]", justify="center")
+    console.print("[bold yellow]cURL Webdav Automation Tool[/bold yellow]", justify="center")
     console.print("[bold yellow]Powered by Ghiyas1337[/bold yellow]", justify="center")
     console.print("\n\n") 
     console.print(table)
@@ -83,8 +83,8 @@ def deface_multi(targets, file_path):
         else:
             table.add_row(str(idx), target, "[bold red]Failed[/bold red]")
         show_banner()
-        console.print("[bold green]cURL Webdav Automation Tool[/bold yellow]", justify="center")
-        console.print("[bold green]Powered by Ghiyas1337[/bold yellow]", justify="center")
+        console.print("[bold yellow]Simulasi Deface: cURL Webdav Automation Tool[/bold yellow]", justify="center")
+        console.print("[bold yellow]Powered by Ghiyas1337[/bold yellow]", justify="center")
         console.print("\n\n")  
         console.print(table)
 
