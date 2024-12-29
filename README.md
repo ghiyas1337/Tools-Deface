@@ -112,9 +112,9 @@ make run
 
 ## 👤 Developer Contact
 
-- **Instagram**: reyzroam
-- **YouTube**: Wanz Xploit
-- **GitHub**: wanzxploit
+- **Instagram**: nawfalghiyad
+- **YouTube**: Ghiyas1337
+- **GitHub**: Ghiyas1337
 
 ## 📄 License
 
