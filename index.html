@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hacked by Wanz Xploit</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            background-color: black;
+            color: red;
+            font-family: 'Courier New', monospace;
+            text-align: center;
+            overflow: hidden;
+            position: relative;
+        }
+
+        h1 {
+            font-size: 5em;
+            text-transform: uppercase;
+            animation: flicker 1s infinite alternate;
+        }
+
+        p {
+            font-size: 1.5em;
+            margin-top: 20px;
+            animation: blink 0.5s infinite alternate;
+        }
+
+        @keyframes flicker {
+            0% { color: red; }
+            50% { color: #ff0000; text-shadow: 0 0 20px red, 0 0 30px #ff0000; }
+            100% { color: darkred; }
+        }
+
+        @keyframes blink {
+            0% { opacity: 1; }
+            100% { opacity: 0; }
+        }
+
+        footer {
+            position: absolute;
+            bottom: 20px;
+            width: 100%;
+            font-size: 0.8em;
+            color: #fff;
+            animation: scroll-text 3s linear infinite;
+        }
+
+        @keyframes scroll-text {
+            from { transform: translateY(100%); }
+            to { transform: translateY(-100%); }
+        }
+    </style>
+</head>
+<body>
+    <h1>Hacked by Wanz Xploit</h1>
+    <p>This website has been compromised!</p>
+    <footer>© 2024 Wanz Xploit. All rights reserved.</footer>
+</body>
+</html>
