@@ -11,8 +11,8 @@ success_links = []
 
 def show_banner():
     os.system("clear")  
-    banner = """
-[bold red]
+    banner = """ [bold red]
+    
 ▒▒▒▒▒▒▒▒▄▄▄▄▄▄▄▄▒▒▒▒▒▒  [bright_yellow]╔══════════════════════════════╗[/]
 ▒▒█▒▒▒▄██████████▄▒▒▒▒  [bright_yellow]║[/]    [bold cyan]Deface Webdav[/]     [bright_yellow]║[/]
 ▒█▐▒▒▒████████████▒▒▒▒  [bright_yellow]║[/]   [bold red]Created by Ghiyas1337[/]     [bright_yellow]║[/]
